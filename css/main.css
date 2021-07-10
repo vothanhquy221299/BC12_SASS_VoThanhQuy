@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  position: relative;
+  background-image: url(../../images/yellow_top_wave_01.png);
+  height: 200px;
+  background-size: cover;
+}
+
+header .navbar-brand {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+}
+
+header #navbarOurTeach .nav-link {
+  padding-right: 40px;
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+}
+
+header .header__phone .btnPhone {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: white;
+  background-color: #b61984;
+  border: 1px;
+  border-radius: 50px;
+  height: 45px;
+  width: 187.23px;
+}
+
+header .header__phone .btnPhone:hover {
+  background-color: #b61984;
+  border: 1px;
+  border-radius: 50px;
+}
+
+header .nav-link-a {
+  padding: 5px;
+  color: black;
+}
+
+.section__about .section__aboutContent {
+  margin: 100px 0;
+}
+
+.section__about .section__aboutContent p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #b61984;
+}
+
+.section__about .section__aboutContent h1 {
+  font-size: 57px;
+  font-weight: 700;
+  color: black;
+}
+
+.section__about .section__aboutImage {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+}
+
+.section__carousel .carousel__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=main.css.map */
