@@ -1,5 +1,4 @@
 header {
-  position: relative;
   background-image: url(../../images/yellow_top_wave_01.png);
   height: 200px;
   background-size: cover;
@@ -16,13 +15,13 @@ header {
   }
   .header__phone {
     .btnPhone {      
-      @include styleText($fs-2, $fw-6, $color-white);
-      @include buttonStyle($color-purple, $bd-1, $bdr-1);
       height: 45px;
       width: 187.23px;
-      &:hover{
-        @include buttonStyle($color-white, $bd-1, $bdr-1);
-      }
+      @include styleText($fs-2, $fw-6, $color-white);
+      @include buttonStyle($color-purple, $bd-1, $bdr-1);
+    }
+    &:hover{
+      @include buttonStyle($color-white, $bd-1, $bdr-1);
     }
   }
   .nav-link-a {
