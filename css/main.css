@@ -27,17 +27,17 @@ header #navbarOurTeach .nav-link {
 }
 
 header .header__phone .btnPhone {
+  height: 45px;
+  width: 187.23px;
   font-size: 13.5px;
   font-weight: 600;
   color: white;
   background-color: #b61984;
   border: 1px;
   border-radius: 50px;
-  height: 45px;
-  width: 187.23px;
 }
 
-header .header__phone .btnPhone:hover {
+header .header__phone:hover {
   background-color: #b61984;
   border: 1px;
   border-radius: 50px;
@@ -95,6 +95,15 @@ header .nav-link-a {
 
 .section__carousel .carousel__listItem .carousel__list .carousel__item .carousel__image img {
   width: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.section__carousel .carousel__listItem .carousel__list .carousel__item .carousel__image img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .section__carousel .carousel__listItem .carousel__list .carousel__item .carousel__content p:first-child {
@@ -131,5 +140,117 @@ header .nav-link-a {
   position: absolute;
   top: 20%;
   height: 100px;
+}
+
+.section__contact {
+  margin-top: 150px;
+  background-image: url(../../images/accent_bottom_wave_01.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section__contact .section__contactContent .contactForm .formContact {
+  width: 400px;
+  margin-left: 100px;
+}
+
+.section__contact .section__contactContent .contactForm .formContact h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: black;
+  margin: 20px 0 40px 0;
+  text-align: center;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .row .formUser i {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  color: #b61984;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .row .formUser input {
+  position: relative;
+  padding-left: 40px;
+  border-radius: 50px;
+  height: 45px;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: black;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .row .formEmail i {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  color: #b61984;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .row .formEmail input {
+  position: relative;
+  padding-left: 40px;
+  border-radius: 50px;
+  height: 45px;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: black;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .formCourse {
+  position: relative;
+  margin-top: 20px;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .formCourse i {
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  color: #b61984;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .formCourse select {
+  padding-left: 40px;
+  border-radius: 50px;
+  height: 45px;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: black;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .formMessage {
+  position: relative;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .formMessage i {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  color: #b61984;
+}
+
+.section__contact .section__contactContent .contactForm .formContact .formMessage textarea {
+  padding-left: 40px;
+  border-radius: 25px;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: black;
+}
+
+.section__contact .section__contactContent .contactForm .formContact button {
+  background-color: #b61984;
+  border: 0;
+  border-radius: 50px;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: white;
+  height: 45px;
+  width: 150px;
+  margin: 30px 0;
+}
+
+.section__contact .section__contactContent .contactForm .formContact button:hover {
+  background-color: #b61984;
+  border: 0;
+  border-radius: 50px;
 }
 /*# sourceMappingURL=main.css.map */
